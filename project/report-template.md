@@ -1,16 +1,17 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### MICHAEL GOBOOLA
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+The output of the predictor include negative values which are not allowed in the submission set, so one need to replace the negatives with 0s to meet the required 
+the submission standard.
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+The model is LightGBMXT_BAG_L2
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 TODO: Add your explanation
